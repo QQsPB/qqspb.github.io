@@ -1,3 +1,619 @@
-<title>Point Blank QQs</title>
 
-<center> Coming soon </center>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//PT-BR" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>PLAYROHAN ::: Anime MMORPG - Seal Online</title>
+<meta http-equiv="content-type" content="text/html;charset=iso-UTF-8">
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="Description" content="Seal Online: Eternal Destiny retains the same vibrant atmosphere as its predecessor with its whimsical characters and colorful world, while enhancing game play with new features and content.">
+<meta name="Abstract" content="mmorpg, online rpg, free mmorpg, mmo, mmog, free online games, rpg, online games, Anime, Animation, seal, sealonine">
+<meta name="Owner" content="webmaster@ynkinteractive.com">
+<meta name="Keywords" content="mmorpg, online rpg, free mmorpg, mmo, mmog, free online games, rpg, online games, Anime, Animation, seal, sealonine">
+
+<script>
+var todayDate = new Date();
+todayDate.setDate( todayDate.getDate() + 1 ); 
+document.write("<meta http-equiv='Content-Type' content='text/html;charset=utf-8' /><meta http-equiv='Content-Script-Type' content='text/javascript' /><META HTTP-EQUIV='CACHE-CONTROL' CONTENT='PUBLIC'><META HTTP-EQUIV='Pragma' CONTENT='no-cache'><META HTTP-EQUIV='Expires' CONTENT='-1'><META HTTP-EQUIV='EXPIRES' CONTENT='"+todayDate.toGMTString()+"'><meta http-equiv='Content-Style-Type' content='text/css' />");
+</script>
+<script type="text/javascript" src="/include/const/Config_script.html"></script>
+
+<script>
+var name = navigator.appName, ver = navigator.appVersion,
+ver_int = parseInt(navigator.appVersion), ua = navigator.userAgent, infostr;
+//alert(ver);
+if(name == "Microsoft Internet Explorer"){
+ if(ver.indexOf("MSIE 9.0") != -1)  {
+  document.getElementById("X-UA-Compatible").setAttribute("content", "IE=9");
+ // document.getElementById("browser_mode").setAttribute("content", "IE=EmulateIE9");
+ }else if(ver.indexOf("MSIE 8.0") != -1)  {
+  document.getElementById("X-UA-Compatible").setAttribute("content", "IE=8;IE8");
+ // document.getElementById("browser_mode").setAttribute("content", "IE=EmulateIE8");
+ }else if(ver.indexOf("MSIE 7.0") != -1)  {
+  document.getElementById("X-UA-Compatible").setAttribute("content", "IE=7");
+ }else{
+  document.getElementById("X-UA-Compatible").setAttribute("content", "IE=edge");
+ }
+}
+</script>
+
+<!--[if lt IE 9]>
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('section');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('hgroup');
+</script>
+<![endif]-->
+<!-- Pulled from http://code.google.com/p/html5shiv/ -->
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<div ID="Portal_in_Seal" style="height:50px;"><script type="text/javascript" language="javascript" src="http://portal.playrohan.com/API/html/top_channel.html"></script></div>
+
+<link rel="stylesheet" type="text/css" href="/common/css/seal/common_new.css">
+<link rel="stylesheet" type="text/css" href="/common/css/seal/seal_sub_new.css">
+<script src="//code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="/common/js/script.js"></script>
+<!--<script type="text/javascript" src="/common/js/query-1.9.1.min.js"></script>-->
+<script type="text/javascript" src="/common/js/jssor.js"></script>
+<script type="text/javascript" src="/common/js/jssor.slider.js"></script>
+<link rel="SHORTCUT ICON" href="/images/seal.ico">
+<script type="text/javascript" src="/common/js/systemmsg.js"></script>
+<script type="text/javascript" src="/common/js/yk.util.js"></script>
+<script type="text/javascript" src="/Common/js/default.js"></script>
+<script type="text/javascript" src="/Common/js/gamestart.js"></script>
+<script type="text/javascript" src="/Common/js/prototype-1-6-0-3.js"></script>
+<script type="text/javascript" src="/common/js/https/login/login.js"></script>
+<script type="text/javascript" src="/common/js/https/member/member.js"></script>
+<script type="text/javascript" src="/common/js/https/member/passcheck.js"></script>
+<script type="text/javascript" language="javascript" src="/common/js/googleAnalytics.js"></script>
+</head>
+
+<body>
+
+	
+	<div id="wrapper">
+    	<div class="wrapper">
+        	<header id="header">
+				<!-----------------------------------  Navi -------------------------------------------------------------->
+            	<div class="header_new">
+                	<div class="Seal_logo"><a href="http://sealonline.playrohan.com"><img src="/image/seal_common/seal_logo.png" /></a></div>
+                    <div class="Menu">
+                      <div id='cssmenu'>
+                        <ul>
+                           <li style="width: 210px;" class='active has-sub'>
+                           	  <a href='#'><span>Background</span></a>
+                          	  <ul>
+                                 <li><a href='http://sealonline.playrohan.com/background_new/seal_online.html'><span>Seal Online</span></a></li>
+                                 <li><a href='http://sealonline.playrohan.com/background_new/seal_story.html'><span>Story of Shiltz</span></a></li>
+                                 <li><a href='http://sealonline.playrohan.com/background_new/launch.html'><span>Game Guide</span></a></li>
+                                 <li class='last'><a href='http://sealonline.playrohan.com/background_new/monsters.html'><span>Monster Info</span></a></li>
+                              </ul>
+                           </li>
+                           <li style="width: 210px; margin-right: 228px;" class='has-sub'><a href='#'><span>Download</span></a>
+                              <ul>
+                                 <li><a href='http://sealonline.playrohan.com/download/download.html'><span>Download Center</span></a></li>
+                                 <li><a href='http://sealonline.playrohan.com/download/down_wallpapers.html'><span>Wallpapers</span></a></li>
+                                 <li><a href='http://sealonline.playrohan.com/download/down_screenshot.html'><span>Screenshots</span></a></li>
+                                 <li class='last'><a href='http://sealonline.playrohan.com/download/paper-art.html'><span>Seal Paper Art</span></a></li>
+                              </ul>
+                           </li>
+                           <li style="width: 210px; margin-right: 10px" class='has-sub'><a href='#'><span>Community</span></a>
+                              <ul>
+                                 <li><a href='http://sealonline.playrohan.com/BBS/news_latest.html'><span>News</span></a></li>
+                                 <li><a href='http://sealonline.playrohan.com/BBS/announce.html'><span>Announcements</span></a></li>
+                                 <li><a href='javascript:wiki_link();'><span>Seal Wikia</span></a></li>
+                                 <li class='last'><a href='http://forum.playrohan.com/forum/forumdisplay.php?f=103' target="_blank"><span>Forum</span></a></li>
+                              </ul>
+                           </li >
+                           <li style="width: 210px;" class='last has-sub'><a href='#'><span>Item Mall</span></a>
+                           		<ul>
+                                 <li><a href='https://soshop.playrohan.com/item_mall_main.html'><span>Item Mall</span></a></li>
+                                 <li><a href='https://soshop.playrohan.com/shopping_cart.html'><span>Shopping Cart</span></a></li>
+                                 <li><a href='https://soshop.playrohan.com/item_purchased.html'><span>Purchase History</span></a></li>
+                                 <li><a href='https://soshop.playrohan.com/grabbit_start.html'><span>Grabbit</span></a></li>
+                                 <li><a href='https://soshop.playrohan.com/shopping_guide.html'><span>Shopping Guide</span></a></li>
+								 <li><a href='https://soshop.playrohan.com/event/RoyalCourtVIP/royalcourtvip.html'><span>Royal Court VIP</span></a></li>
+                                 <li class='last'><a href='https://soshop.playrohan.com/redeem_code.html'><span>Redeem Code</span></a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                        </div>
+                    </div>
+                    <!-----------------------------------  Navi END -------------------------------------------------------------->
+				</div>
+            </header>
+
+
+
+             <!-----------------------------------  Contents Starts  -------------------------------------------------------------->
+            <div class="contents">
+            	 <!-----------------------------------  Top Banner Starts  -------------------------------------------------------------->
+            	<div class="Top_banner">
+                    	<div id="slider1_container" class=slider1 title="Outer Container" style="margin: 0 auto;position: relative; width: 1039px;height: 265px; background-color: Gray;">
+                        <!-- Slides Container -->
+                        <div u="slides" title="Slides Container" style="cursor: move; position: absolute; width: 1039px;
+                            height: 265px; overflow: hidden;">
+																				
+										<!-- Slide -->
+										<div style="position: absolute; overflow: hidden;">
+											<a href="http://forum.playrohan.com/forum/showthread.php?t=30546&p=358392#post358392" target="_blank"><img src="https://imgur.com/sbsHPVt.jpg" width="1039" height="265" /></a>
+										</div>
+										<!-- Slide -->
+																							
+										<!-- Slide -->
+										<div style="position: absolute; overflow: hidden;">
+											<a href="http://forum.playrohan.com/forum/showthread.php?t=30534#axzz5HhRraKyT" target="_blank"><img src="https://imgur.com/ARkLNEA.jpg" width="1039" height="265" /></a>
+										</div>
+										<!-- Slide -->
+																							
+										<!-- Slide -->
+										<div style="position: absolute; overflow: hidden;">
+											<a href="http://forum.playrohan.com/forum/showthread.php?t=30545#axzz5HhRraKyT" target="_blank"><img src="https://imgur.com/mcuur2g.jpg" width="1039" height="265" /></a>
+										</div>
+										<!-- Slide -->
+																							
+										<!-- Slide -->
+										<div style="position: absolute; overflow: hidden;">
+											<a href="http://forum.playrohan.com/forum/showthread.php?t=30508#axzz5GHzM9Y47" target="_blank"><img src="https://imgur.com/pKakmyH.jpg" width="1039" height="265" /></a>
+										</div>
+										<!-- Slide -->
+																							
+										<!-- Slide -->
+										<div style="position: absolute; overflow: hidden;">
+											<a href="http://forum.playrohan.com/forum/showthread.php?t=30485&p=358132#post358132" target="_blank"><img src="https://imgur.com/QA2Torf.jpg" width="1039" height="265" /></a>
+										</div>
+										<!-- Slide -->
+																							
+										<!-- Slide -->
+										<div style="position: absolute; overflow: hidden;">
+											<a href="http://forum.playrohan.com/forum/showthread.php?t=30421#axzz5DeSkMJNT" target="_blank"><img src="https://imgur.com/Wb1USXo.jpg" width="1039" height="265" /></a>
+										</div>
+										<!-- Slide -->
+																							
+										<!-- Slide -->
+										<div style="position: absolute; overflow: hidden;">
+											<a href="http://forum.playrohan.com/forum/showthread.php?t=30347#axzz5B04eIw2n" target="_blank"><img src="https://imgur.com/WIfcwtB.jpg" width="1039" height="265" /></a>
+										</div>
+										<!-- Slide -->
+																							
+										<!-- Slide -->
+										<div style="position: absolute; overflow: hidden;">
+											<a href="http://forum.playrohan.com/forum/showthread.php?t=30259&p=357022#post357022" target="_blank"><img src="https://imgur.com/NDGvf2N.jpg" width="1039" height="265" /></a>
+										</div>
+										<!-- Slide -->
+										
+                        </div>
+                          <!-- bullet navigator container -->
+                        <div data-u="navigator" class="jssorb21">
+                            <!-- bullet navigator item prototype -->
+                            <div data-u="prototype"></div>
+                        </div>
+                        <!--#endregion Bullet Navigator Skin End -->
+                        <!-- Arrow Left -->
+                        <span u="arrowleft" class="jssora03l" title="This is arrowleft" style="bottom: 104px;">
+                        </span>
+                        <!-- Arrow Right -->
+                        <span u="arrowright" class="jssora03r" title="This is arrow right" style="bottom: 10px;">
+                        </span>
+                    </div>
+                    <!---------------------------------------- Top Banner Ends ---------------------------------------->
+                </div>
+
+
+            	
+
+<script type="text/javascript" src="/promotion/DarkTides/common.js"></script>	
+
+<SCRIPT type="text/javascript">
+<!--
+
+var featured_val = {"returnval":"5", "itemdate":[{"item_type":"0","item_code":"7","item_gubun":"1","item_name":"Bronze Word of Blessing - (7 days)","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/1/bronze_word_blessing(2).jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=7&gubun=1","item_memo":"50% Additional Experience.    Do you wish for a faster level-up?  If so, try t..","item_price":"360","item_image_gubun":"1"},{"item_type":"0","item_code":"249","item_gubun":"3","item_name":"Golden Chest Key","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/1/439.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=249&gubun=3","item_memo":"Allows the player to use this gold key to unlock a special golden chest. This ..","item_price":"100","item_image_gubun":"1"},{"item_type":"0","item_code":"250","item_gubun":"6","item_name":"Old Knight's Certificate","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/1/444.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=250&gubun=6","item_memo":"Allows the player to enter monster survivor mode without any restrictions. Thi..","item_price":"60","item_image_gubun":"1"},{"item_type":"0","item_code":"248","item_gubun":"6","item_name":"Bank Expansion Crystal Ticket - ..","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/1/438(0).jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=248&gubun=6","item_memo":"Allows the player to expand the bank by adding additional slots. Using this it..","item_price":"730","item_image_gubun":"1"},{"item_type":"0","item_code":"1427","item_gubun":"6","item_name":"Old Knight's Authentication","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/1/OldKnightsauthentication.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1427&gubun=6","item_memo":"","item_price":"150","item_image_gubun":"1"},{"item_type":"0","item_code":"270","item_gubun":"2","item_name":"Albereo's Tool Box 2","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/1/71.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=270&gubun=2","item_memo":"This item will prevent your Gear from being destroyed after a Refine Failure. ..","item_price":"1200","item_image_gubun":"1"}]};
+//var newitem_val = {"returnval":"5", "itemdate":[{"item_type":"0","item_code":"1509","item_gubun":"4","item_name":"Navy Uniform Costume Box - 15 Days","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/2/Navy.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1509&gubun=4","item_memo":"Navy Uniform Costume Box - 15 Days	  (1-piece Costume)	  	  *Stats*	  Damage 1..","item_price":"750","item_image_gubun":"2"},{"item_type":"0","item_code":"1505","item_gubun":"4","item_name":"[Magic] Modern Dual Rolled Hair ..","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/2/30.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1505&gubun=4","item_memo":"Allows the player to change their Hairstyle.    Styling your hairstyle and gra..","item_price":"400","item_image_gubun":"2"},{"item_type":"0","item_code":"1469","item_gubun":"4","item_name":"[Magic] Funky Wolf Cut (15 days)","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/2/32.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1469&gubun=4","item_memo":"Allows the player to change their Hairstyle.    Styling your hairstyle and gra..","item_price":"400","item_image_gubun":"2"},{"item_type":"0","item_code":"1464","item_gubun":"4","item_name":"[Magic] Wild Pony Tail Hair (15 ..","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/2/2.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1464&gubun=4","item_memo":"Allows the player to change their Hairstyle.    Styling your hairstyle and gra..","item_price":"400","item_image_gubun":"2"},{"item_type":"0","item_code":"1410","item_gubun":"4","item_name":"Flame Lucifer (Permanent)","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/2/flamelucifer1.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1410&gubun=4","item_memo":"Flame Lucifer (Permanent)  (One-piece Costume)    *Stats*  No additional stats..","item_price":"1890","item_image_gubun":"2"},{"item_type":"0","item_code":"1415","item_gubun":"4","item_name":"Panda Costume (Permanent)","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/2/panda.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1415&gubun=4","item_memo":"Panda Costume (Permanent)  (One-piece Costume)    *Stats*  No additional stats..","item_price":"1890","item_image_gubun":"2"},{"item_type":"0","item_code":"1411","item_gubun":"4","item_name":"Retro School Uniform (Permanent)","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/2/retroschool.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1411&gubun=4","item_memo":"Retro School Uniform (Permanent)  (One-piece Costume)    *Stats*  No additiona..","item_price":"1890","item_image_gubun":"2"},{"item_type":"0","item_code":"1402","item_gubun":"4","item_name":"Green Bruce Training Suit (Perma..","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/2/greenbrucetrainingsuit.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1402&gubun=4","item_memo":"Green Bruce Training Suit (Permanent)  (One-piece Costume)    *Stats*  No addi..","item_price":"1890","item_image_gubun":"2"},{"item_type":"0","item_code":"10","item_gubun":"1","item_name":"Bronze Pouch of Blessing - (3 da..","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/1/bronze_pouch_blessing(3).jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=10&gubun=1","item_memo":"50% Chance of Additional Drop Opportunity    Do you wish to get more items at ..","item_price":"250","item_image_gubun":"1"},{"item_type":"1","item_code":"12","item_gubun":"99","item_name":"Inventory Expansion Package (1,2..","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/0/InvExp3.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=12&gubun=99","item_memo":"","item_price":"4000","item_image_gubun":"0"},{"item_type":"0","item_code":"167","item_gubun":"6","item_name":"Premium Kiosk 7 Days","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/1/Premium_kiosk.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=167&gubun=6","item_memo":"It is twice bigger!! Cash trade OK!!    Premium Kiosk becomes twice big.  You ..","item_price":"1500","item_image_gubun":"1"},{"item_type":"0","item_code":"1416","item_gubun":"2","item_name":"Marco's Magic Stone (7 days)","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/1/marcomagic.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1416&gubun=2","item_memo":"Marco's Magic Stones apply random stats to Permanent Costumes.    Once you use..","item_price":"60","item_image_gubun":"1"},{"item_type":"0","item_code":"1412","item_gubun":"4","item_name":"Black Cat Costume (Permanent)","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/2/BlacCAT.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1412&gubun=4","item_memo":"Black Cat Costume (Permanent)  (One-piece Costume)    *Stats*  No additional s..","item_price":"1890","item_image_gubun":"2"},{"item_type":"0","item_code":"1417","item_gubun":"2","item_name":"Marco's Magic Stone (30 days)","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/1/marcomagic.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1417&gubun=2","item_memo":"Marco's Magic Stones apply random stats to Permanent Costumes.    Once you use..","item_price":"120","item_image_gubun":"1"},{"item_type":"0","item_code":"1423","item_gubun":"3","item_name":"Craydeneh's card (Top)","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/1/Cradeynehs.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1423&gubun=3","item_memo":"Craydeneh's card (Top) is used to convert your Ranael Top Manual into a Blesse..","item_price":"490","item_image_gubun":"1"},{"item_type":"0","item_code":"1424","item_gubun":"3","item_name":"Craydeneh's card (Bottom)","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/1/Cradeynehs.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1424&gubun=3","item_memo":"Craydeneh's card (Bottom) is used to convert your Ranael Bottom Manual into a ..","item_price":"490","item_image_gubun":"1"},{"item_type":"0","item_code":"1425","item_gubun":"3","item_name":"Craydeneh's card (Shoes)","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/1/Cradeynehs.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1425&gubun=3","item_memo":"Craydeneh's card (Shoes) is used to convert your Ranael Shoes Manual into a Bl..","item_price":"490","item_image_gubun":"1"},{"item_type":"0","item_code":"1426","item_gubun":"3","item_name":"Craydeneh's card (Weapon)","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/1/Cradeynehs.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1426&gubun=3","item_memo":"Craydeneh's card (Weapon) is used to convert your Ranael Weapon Manual into a ..","item_price":"700","item_image_gubun":"1"},{"item_type":"0","item_code":"1422","item_gubun":"3","item_name":"Craydeneh's card (Helmet)","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/1/Cradeynehs.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1422&gubun=3","item_memo":"Craydeneh's card (Helmet) is used to convert your Ranael Helmet Manual into a ..","item_price":"490","item_image_gubun":"1"},{"item_type":"0","item_code":"1506","item_gubun":"4","item_name":"[Magic] Dual Rolled Wave Hair (1..","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/2/31.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1506&gubun=4","item_memo":"Allows the player to change their Hairstyle.    Styling your hairstyle and gra..","item_price":"400","item_image_gubun":"2"},{"item_type":"0","item_code":"1510","item_gubun":"4","item_name":"Native Costume Box - 15 Days","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/2/Native.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1510&gubun=4","item_memo":"Native Costume Box - 15 Days	  (1-piece Costume)	  	  *Stats*	  Damage 19	Magi..","item_price":"750","item_image_gubun":"2"},{"item_type":"0","item_code":"1497","item_gubun":"4","item_name":"[Magic] Dual Rolled Hair (15 days)","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/2/23.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1497&gubun=4","item_memo":"Allows the player to change their Hairstyle.    Styling your hairstyle and gra..","item_price":"400","item_image_gubun":"2"},{"item_type":"0","item_code":"1500","item_gubun":"4","item_name":"[Magic] Braided Long Bob Cut (15..","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/2/38.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1500&gubun=4","item_memo":"Allows the player to change their Hairstyle.    Styling your hairstyle and gra..","item_price":"400","item_image_gubun":"2"},{"item_type":"0","item_code":"1492","item_gubun":"4","item_name":"[Damage] Dual Rolled Wave Hair (..","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/2/31.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1492&gubun=4","item_memo":"Allows the player to change their Hairstyle.    Styling your hairstyle and gra..","item_price":"400","item_image_gubun":"2"},{"item_type":"0","item_code":"1467","item_gubun":"4","item_name":"[Magic] Assymetric Hair (15 days)","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/2/11.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1467&gubun=4","item_memo":"Allows the player to change their Hairstyle.    Styling your hairstyle and gra..","item_price":"400","item_image_gubun":"2"},{"item_type":"0","item_code":"42","item_gubun":"2","item_name":"Marco's Mistake","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/1/Marco_Mistake(0).jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=42&gubun=2","item_memo":"Special Tax Day Sale!    Resets equipment options.    Use it when you don't li..","item_price":"240","item_image_gubun":"1"},{"item_type":"0","item_code":"270","item_gubun":"2","item_name":"Albereo's Tool Box 2","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/1/71.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=270&gubun=2","item_memo":"This item will prevent your Gear from being destroyed after a Refine Failure. ..","item_price":"1200","item_image_gubun":"1"},{"item_type":"0","item_code":"1362","item_gubun":"3","item_name":"Inventory Expansion.3 (64 Slots)","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/1/Inventory 3.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=1362&gubun=3","item_memo":"","item_price":"1500","item_image_gubun":"1"},{"item_type":"0","item_code":"271","item_gubun":"2","item_name":"Albereo's Jewelry Box","item_image":"http://imgupload.playrohan.com/dontPortal/image_item_mall/1/410.jpg","item_link":"https://soshop.playrohan.com/detail_view.html?code=271&gubun=2","item_memo":"A Special Jewelry Box used by Albereo to form the Holy Sword.  This item will ..","item_price":"2000","item_image_gubun":"1"}]}; //20140826 main problem... 
+var newitem_val = '';
+function jf_newitem(){
+	return newitem_val;
+}
+javaobj = {}
+javaobj.main = {
+//val
+//	_LayerPopupName : "TrialOfChampions_20110705"
+//	,_promotionUrl : "/promotion/TrialOfChampions/index.html"
+	
+	
+//function
+	 _viewArea : function(num){
+		for(var i=1;i<=6;i++){
+			//$("#funStuff_view" + i).hide("fast");
+			document.getElementById("funStuff_view" + i).style.display = "none";
+  			document.getElementById("funStuff_menu"+i).src="http://sealonline.playrohan.com/image/seal_main/fun_stuff" + i + ".gif";
+		}
+		$("#funStuff_view" + num).show("slow");
+		document.getElementById("funStuff_menu"+num).src="http://sealonline.playrohan.com/image/seal_main/fun_stuff" + num + "_on.gif";
+	}
+	
+	,_ViewNotice : function(num){
+		var entry1 = $("#Mnotice\\.entry1\\["+num+"\\]");
+		var entry2 = $("#Mnotice\\.entry2\\["+num+"\\]");
+		var entry_len = $("#Mcenter #McenterNews dl").length;
+		try{
+		/*
+			for(i=0; i < entry_len; i++){
+				//if ( entry2.is(":hidden") ) {}
+				//else{
+					$("#Mnotice\\.entry1\\["+i+"\\]").css("background-color", "");
+					$("#Mnotice\\.entry2\\["+i+"\\]").css("background-color", "").slideUp('slow', function() {
+			    			// Animation complete.
+			  		});
+		  		//}
+			}
+		*/
+			if ( entry2.is(":hidden") ) {
+				entry1.css("background-color", "");
+				entry2.css("background-color", "").slideDown('slow', function() {
+		  		});
+				document.getElementById("notice_btn"+num).src = "/Image/seal_main/close.gif";
+			}else{
+				entry1.css("background-color", "");
+				entry2.css("background-color", "").slideUp('slow', function() {
+		  		});
+		  		document.getElementById("notice_btn"+num).src = "/Image/seal_main/open.gif";
+			}
+		}catch (e){}
+	}
+	
+	,_RollingFeatured : function(){
+		var rollingDiv = document.getElementById("featured_sub");
+		var featured_len = featured_val.itemdate.length;
+		var inner_val, itemimg, itemlink, itemname, itemmemo
+		inner_val = "";
+		for(var i=0; i < featured_len; i++){
+			itemimg = featured_val.itemdate[i].item_image;
+			itemlink = featured_val.itemdate[i].item_link;
+			itemname = featured_val.itemdate[i].item_name;
+			itemmemo = featured_val.itemdate[i].item_memo;
+			if ((i % 3) < 3){
+				if ((i % 3) == 0){
+					inner_val += "<div>";
+				}
+				inner_val += "<dl class='list'><dl><dt><img src='"+ itemimg +"' width='46' height='46'/></dt><dd class='title'><a href='" + itemlink + "' >" + itemname + "</a></dd><dd class='explan'>" + itemmemo + "</dd></dl></dl>";
+				if ((i % 3) == 2 || i == (featured_len-1)){
+					inner_val += "</div>";
+				}
+			}
+		}
+		rollingDiv.innerHTML =inner_val;
+	}
+
+	,_Featured_set : function (){
+	    $('.featured_sub').css({'height':'210px'}).cycle({
+		    fx:     'scrollDown', 
+			speed:    1000, 
+	    	timeout:  10000,
+		    random:  1 
+		});
+	}
+	
+	,_winopen : function(url, id, w, h){
+		window.open(url,id,'width='+ w +',height=' + h);
+		return;
+	}
+	
+	,_link : function(url, target){
+		document.location.href = url;
+	}
+	
+	,_getCookie : function(name){
+		var nameOfCookie = name + "=";
+		var x = 0;
+		while ( x <= document.cookie.length )
+		{
+	        var y = (x+nameOfCookie.length);
+	        if ( document.cookie.substring( x, y ) == nameOfCookie ) {
+                if ( (endOfCookie=document.cookie.indexOf( ";", y )) == -1 )
+                        endOfCookie = document.cookie.length;
+                return unescape( document.cookie.substring( y, endOfCookie ) );
+	        }
+	        x = document.cookie.indexOf( " ", x ) + 1;
+	        if ( x == 0 ){break;}
+		}
+		return "";
+	}
+	,_CookieReady : function(){
+		if (getCookie( this._LayerPopupName ) == "main" ){
+		}else if (getCookie( this._LayerPopupName ) != "done" ){
+			document.location.href = this._promotionUrl;
+		}
+	}
+}
+
+$(document).ready(function(){
+javaobj.main._Featured_set();
+javaobj.main._CookieReady();
+});
+
+//-->
+</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '238744940008078'); 
+fbq('track', 'ViewContent');
+</script>
+<noscript>
+<img height="1" width="1" 
+src="https://www.facebook.com/tr?id=238744940008078&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=149146458488598";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+<script type="text/javascript" language="javascript" src="/common/js/googleAnalytics.js"></script>
+             <!-----------------------------------  Contents Starts  -------------------------------------------------------------->
+           	 <!-----------------------------------  Left Contents Starts  -------------------------------------------------------------->
+            	<div class="left_contentwrapper">
+                	<div class="subtitle" style="text-align:center;">
+                    	<span>Announcements & News</span>
+                    </div>
+                    <div class="sub_content">
+                    	
+					
+
+                        <div class="news_row">
+                            <div class="news_image">
+                               <img src="image/seal_main/announce_leftsm.jpg" />
+                            </div>
+                            <div class="news_txt">
+                                <div class="news_txt_title">
+									<h1 style="margin-top:0;">
+										<a href="/BBS/announce_view.html?NewsSeq=1144" style="color:#008a82;">
+											Compensation
+										</a>
+									</h1>
+								</div>
+                                <div class="news_description">
+									<a href="/BBS/announce_view.html?NewsSeq=1144" style="color:#676767;">
+										
+									</a>
+										
+									<br />
+									06/06
+								</div>
+									
+                            </div>
+                        </div>
+						<hr style="clear:both;"/>
+						
+
+                        <div class="news_row">
+                            <div class="news_image">
+                               <img src="image/seal_main/announce_leftsm.jpg" />
+                            </div>
+                            <div class="news_txt">
+                                <div class="news_txt_title">
+									<h1 style="margin-top:0;">
+										<a href="/BBS/announce_view.html?NewsSeq=1143" style="color:#008a82;">
+											[Event] Seal 5th Anniversary
+										</a>
+									</h1>
+								</div>
+                                <div class="news_description">
+									<a href="/BBS/announce_view.html?NewsSeq=1143" style="color:#676767;">
+										Seal Online 5th Anniversary month is here!
+									</a>
+										
+									<br />
+									06/06
+								</div>
+									
+                            </div>
+                        </div>
+						<hr style="clear:both;"/>
+						
+
+                        <div class="news_row">
+                            <div class="news_image">
+                               <img src="image/seal_main/announce_leftsm.jpg" />
+                            </div>
+                            <div class="news_txt">
+                                <div class="news_txt_title">
+									<h1 style="margin-top:0;">
+										<a href="/BBS/announce_view.html?NewsSeq=1142" style="color:#008a82;">
+											[Update] Rascal'o Poly for S..
+										</a>
+									</h1>
+								</div>
+                                <div class="news_description">
+									<a href="/BBS/announce_view.html?NewsSeq=1142" style="color:#676767;">
+										Don't miss such great prizes.
+									</a>
+										
+									<br />
+									06/06
+								</div>
+									
+                            </div>
+                        </div>
+						<hr style="clear:both;"/>
+						
+
+                        <div class="news_row">
+                            <div class="news_image">
+                               <img src="image/seal_main/announce_leftsm.jpg" />
+                            </div>
+                            <div class="news_txt">
+                                <div class="news_txt_title">
+									<h1 style="margin-top:0;">
+										<a href="/BBS/announce_view.html?NewsSeq=1141" style="color:#008a82;">
+											[Update] Grabbit June 2018!
+										</a>
+									</h1>
+								</div>
+                                <div class="news_description">
+									<a href="/BBS/announce_view.html?NewsSeq=1141" style="color:#676767;">
+										Grabbit for June is here!
+									</a>
+										
+									<br />
+									06/06
+								</div>
+									
+                            </div>
+                        </div>
+						<hr style="clear:both;"/>
+						
+
+                        <div class="news_row">
+                            <div class="news_image">
+                               <img src="image/seal_main/announce_leftsm.jpg" />
+                            </div>
+                            <div class="news_txt">
+                                <div class="news_txt_title">
+									<h1 style="margin-top:0;">
+										<a href="/BBS/announce_view.html?NewsSeq=1140" style="color:#008a82;">
+											[Event] Get ready for summer!
+										</a>
+									</h1>
+								</div>
+                                <div class="news_description">
+									<a href="/BBS/announce_view.html?NewsSeq=1140" style="color:#676767;">
+										Check you the Pre-Summer Events!
+									</a>
+										
+									<br />
+									05/24
+								</div>
+									
+                            </div>
+                        </div>
+						<hr style="clear:both;"/>
+						
+
+                        <div class="news_row">
+                            <div class="news_image">
+                               <img src="image/seal_main/announce_leftsm.jpg" />
+                            </div>
+                            <div class="news_txt">
+                                <div class="news_txt_title">
+									<h1 style="margin-top:0;">
+										<a href="/BBS/announce_view.html?NewsSeq=1139" style="color:#008a82;">
+											[END] Maintenance 05/22/2018
+										</a>
+									</h1>
+								</div>
+                                <div class="news_description">
+									<a href="/BBS/announce_view.html?NewsSeq=1139" style="color:#676767;">
+										Our 05/22/2018 maintenance has finished and servers are once again live! 
+									</a>
+										
+									<br />
+									05/22
+								</div>
+									
+                            </div>
+                        </div>
+						<hr style="clear:both;"/>
+						
+                    </div>
+                </div>
+            	<!----------------------------------- Right Sub Menu Starts ----------------------------------------------------------->
+             	<div id='Right_shortcuts'>
+                	<ul>
+                    	<li class="short_li">
+                        	<a href="http://sealonline.playrohan.com/Ranking/ranking.html">
+                                <img src="image/seal_main/raking_icon00.jpg" />
+                                <div class="short_title">
+                                    Ranking
+                                </div>
+                            </a>
+                        </li>
+                        <li class="short_li">
+                        	<a href='https://soshop.playrohan.com/grabbit_start.html'>
+                                <img src="image/seal_main/grabbit_icon00.jpg" />
+                                <div class="short_title">
+                                    Grabbit Start
+                                </div>
+                            </a>
+                        </li>
+                        <li class="short_li">
+                        	<a href='https://soshop.playrohan.com/event/RoyalCourtVIP/royalcourtvip.html'>
+                                <img src="image/seal_main/vip_icon00.jpg" />
+                                <div class="short_title">
+                                    Royal Court VIP
+                                </div>
+                            </a>
+                        </li>
+                        <li class="short_li"  onclick="javascript:wiki_link();" style="cursor: pointer; cursor: hand;">
+                        	<!--<a href='#' target="_blank" onclick="javascript:wiki_link();">-->
+                                <img src="image/seal_main/seal_wiki00.jpg" />
+                                <div class="short_title">
+                                    Official Seal Wiki
+                                </div>
+                            <!--</a>-->
+                        </li>
+                        <li class="short_li">
+                        	<div class="Main_fbWrapper">
+                            	<!--<span>Seal Onlne Facebook</span>-->
+                                
+                                <div class="Main_fbimgs">
+ 
+									<div class="fb-page" data-href="https://www.facebook.com/sealmmorpg" data-width="235" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/sealmmorpg"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div></div>
+                                </div>
+                                <hr style="margin: 4px 0; border-top: 1px solid #808080; border-bottom: 1px solid #D4D4D4;" />
+									<!--<a href="#"><img src="image/seal_main/facebook_likebtn.png" /></a>-->
+									<a href="https://twitter.com/SealOnline" target="_blank"><img src="image/seal_main/twitter_btn.png" /></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            <!-----------------------------------  Contents Ends  -------------------------------------------------------------->
+            <!-----------------------------------  bottom background starts  -------------------------------------------------------------->
+			<!-----------------------------------  bottom background starts  -------------------------------------------------------------->
+			</div>
+		</div>
+    	<div class="New_bottom">
+        	<div class="bottom_characters">
+            	<img class="bottom_left" src="/image/seal_common/bottom_Chracterleft.png" />
+                <img class="bottom_right" src="/image/seal_common/bottom_Chracterright.png" />
+            </div>
+    	</div>
+    </div>
+	<script type="text/javascript" language="javascript" src="http://portal.playrohan.com/API/html/footer_channel.html"></script>
+	<iframe name="ifrm_1" id="ifrm_1" src="/etc/iframe.html" frameborder="no" marginwidth="0" marginheight="0" scrolling="no" style="width:0px;height:0px;"></iframe>
+	
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4615291-33']);
+  _gaq.push(['_setDomainName', 'playrohan.com']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>
