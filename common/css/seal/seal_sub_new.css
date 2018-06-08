@@ -7,9 +7,9 @@ div table .img img	{border:1px solid #A2A2A2;}
 .font_26		{font-size:20px;}
 
 /* Background */
-.sealonline_con01 {background:url(/image/seal_sub_new/01Sealonline_bg01.png) 0px 30px no-repeat; min-height: 480px;}
+.sealonline_con01 {background:url(image/seal_sub_new/01Sealonline_bg01.png) 0px 30px no-repeat; min-height: 480px;}
 .sealonline_con01 .text		{width: 45%; float:right; display:block; padding-top: 40px; margin-right: 20px;}
-.sealonline_con02 {background:url(/image/seal_sub_new/01Sealonline_bg02.png) right 60px no-repeat; min-height: 550px;}
+.sealonline_con02 {background:url(image/seal_sub_new/01Sealonline_bg02.png) right 60px no-repeat; min-height: 550px;}
 .sealonline_con02 .text		{width: 47%; float:left; display:block; padding-top: 40px;}
 .guide			  {margin-bottom: 20px;}
 .guide_survival		{margin-bottom: 20px; padding-right: 20px;}
@@ -83,27 +83,27 @@ div.select_op ul.ServerList li span.on		{font-size:14px; font-weight:bold; color
 div.select_op dl.classes					{width: 100%; border-bottom:1px dashed #cccccc; padding:10px 5px; zoom:1;}
 div.select_op dl.classes:after				{content: "."; clear:both; display:block; height:0px; visibility:hidden;}
 div.select_op dl.classes dt					{float:left; width:70px; color:#4c7add; font-weight:bold;}
-div.select_op dl.classes dt span			{display:inline_block; padding-right:8px; background:url('/image/seal_ranking/classes_bullet.gif') no-repeat right 5px;}
+div.select_op dl.classes dt span			{display:inline_block; padding-right:8px; background:url(/image//seal_ranking/classes_bullet.gif') no-repeat right 5px;}
 div.select_op dl.classes dd					{float:left; width:89%;*margin-left:60px;*margin-top:-13px;}
-div.select_op dl.classes dd span			{display:inline-block; padding:0px 12px 3px 8px; background:url('/image/seal_ranking/classes_bar.gif') no-repeat right 4px;}
+div.select_op dl.classes dd span			{display:inline-block; padding:0px 12px 3px 8px; background:url(/image//seal_ranking/classes_bar.gif') no-repeat right 4px;}
 div.select_op dl.classes dd span.all a		{color:#4c7add; font-weight:bold;}
 div.select_op dl.classes dd span.on a		{color:#7E8EB2; }
 div.select_op dl.classes dd span a			{color:#222222;}
 div.select_op dl.classes dd span a:hover	{text-decoration:underline;}
 div.CharacterSearch							{width:100%; margin-top:-1px; border-bottom:2px solid #4c7add; color:#666666; } /*padding:8px;*/
 div.CharacterSearch input.txt				{width:200px; margin: 0 10px;}
-div.CharacterSearch input.search			{width:72px; height:18px; background:url('/image/seal_common/btn_search.gif') no-repeat; border:none; vertical-align:bottom; cursor:pointer;}
+div.CharacterSearch input.search			{width:72px; height:18px; background:url(/image//seal_common/btn_search.gif') no-repeat; border:none; vertical-align:bottom; cursor:pointer;}
 div.CharacterSearch div.select_term			{float:right; width:230px; text-align:right;}
 div.CharacterSearch div.select_term select	{margin:0px; font-size: 12px;}
 
 div.Ranking_Term	{width:100%; margin-bottom:3px; height:30px; }
-div.Ranking_Term span.btn1	{float:left; display:inline-block; width:90px; height:25px; background:url('/image/seal_ranking/btn_overall.gif') no-repeat;}
-div.Ranking_Term span.btn2	{float:left; display:inline-block; width:100px; height:25px; background:url('/image/seal_ranking/btn_biweekly.gif') no-repeat;}
+div.Ranking_Term span.btn1	{float:left; display:inline-block; width:90px; height:25px; background:url(/image//seal_ranking/btn_overall.gif') no-repeat;}
+div.Ranking_Term span.btn2	{float:left; display:inline-block; width:100px; height:25px; background:url(/image//seal_ranking/btn_biweekly.gif') no-repeat;}
 div.Ranking_Term a:hover span, div.Ranking_Term span.on	{background-position:0px -25px;}
 div.Ranking_Term div.select_term	{float:right; width:230px; text-align:right;*margin-top:-20px;}
 div.Ranking_Term div.select_term select	{margin:0px; font-size: 12px;}
 div.Ranking_Term input.txt	{width:200px; margin: 0 10px;}
-div.Ranking_Term input.search	{width:72px; height:18px; background:url('/image/seal_common/btn_search.gif') no-repeat; border:none; vertical-align:bottom; cursor:pointer;}
+div.Ranking_Term input.search	{width:72px; height:18px; background:url(/image//seal_common/btn_search.gif') no-repeat; border:none; vertical-align:bottom; cursor:pointer;}
 table.Ranking	{width: 100%;}
 div.ranking_paging	{width:100%; text-align:center; padding:10px;}
 div.ranking_paging span	{display:inline-block; height:12px; padding:1px 3px; vertical-align:bottom;}
@@ -114,7 +114,7 @@ div.ranking_paging img	{margin: 0 5px;}
 table.Ranking TH	{height:29px; }
 table.Ranking td	{height:40px; border-bottom:1px solid #FF5200;}
 table.Ranking td.updown	{line-height:16px;}
-table.Ranking td.updown span		{display:inline-block; padding-left:10px; background:url('/image/seal_ranking/icon_rank_updown.gif') no-repeat;}
+table.Ranking td.updown span		{display:inline-block; padding-left:10px; background:url(/image//seal_ranking/icon_rank_updown.gif') no-repeat;}
 table.Ranking td.updown span.up		{background-position:1px 3px; color:#cf0000;}
 table.Ranking td.updown span.same	{background-position:1px -15px; color:#666666;}
 table.Ranking td.updown span.down	{background-position:1px -30px; color:#3069e5;}
@@ -185,10 +185,10 @@ a					{color:#252525;}
 .news_search li		{float:left; width: 20px; line-height: 23px; text-align:center;}
 .news_search a,	.news_search ul	{float: left;}
 .news_search ul		{padding-left:0;}
-.news_prev1			{background: url('/image/seal_sub_new/news_prev1.png') no-repeat center; width: 45px; height: 25px; margin-right: 15px;}
-.news_prev2			{background: url('/image/seal_sub_new/news_prev2.png') no-repeat center; width: 25px; height: 25px;}
-.news_next1			{background: url('/image/seal_sub_new/news_next1.png') no-repeat center; width: 45px; height: 25px; margin-left: 15px;}
-.news_next2			{background: url('/image/seal_sub_new/news_next2.png') no-repeat center; width: 25px; height: 25px;}
+.news_prev1			{background: url(/image//seal_sub_new/news_prev1.png') no-repeat center; width: 45px; height: 25px; margin-right: 15px;}
+.news_prev2			{background: url(/image//seal_sub_new/news_prev2.png') no-repeat center; width: 25px; height: 25px;}
+.news_next1			{background: url(/image//seal_sub_new/news_next1.png') no-repeat center; width: 45px; height: 25px; margin-left: 15px;}
+.news_next2			{background: url(/image//seal_sub_new/news_next2.png') no-repeat center; width: 25px; height: 25px;}
 .jump				{float:left;}
 .news_search2		{float:left; margin: 0 10px;}
 div.movie_title { width: 96%; text-shadow: 1px 1px #fff;  padding: 13px 0px 13px 15px; float: left; margin: 30px 0; font-size: 15px;  color: #288CD6;  border: 2px solid #125A97;  border-radius: 2em;  -webkit-border-radius: 2em;}
@@ -209,10 +209,10 @@ table.category li.on p a	{color: #FFED00; text-shadow: -1px -1px #222; font-size
 div#reco-view			{position: relative; height: 210px; padding: 10px; margin-left: 5px; background: #ddd; border: 1px solid #B7B7B7;}
 ul.co_list				{margin-top: 12px; margin-left: 20px; position: relative;}
 ul.co_list li			{float: left;  width: 120px;  display: inline;  padding-left: 27px;}
-p.re_img				{width: 100px; margin-bottom: 10px; padding: 10px; background: url('/image/seal_sub_new/grabbit_bg.jpg') no-repeat;}
+p.re_img				{width: 100px; margin-bottom: 10px; padding: 10px; background: url(/image//seal_sub_new/grabbit_bg.jpg') no-repeat;}
 p.re_name				{color: #717171; line-height: 12px; text-align: center;}
 
-ul#area-best {background:url('/image/soshop/item_best_bg.gif') no-repeat top left;}
+ul#area-best {background:url(/image//soshop/item_best_bg.gif') no-repeat top left;}
 ul#area-best li { overflow:inherit;}
 ul#area-best p.re_img {float:left; width:100px; padding:2px; border:2px solid #e6e6e6; text-align:center; display:block;}
 ul#area-best p.re_name {float:left; text-align:center; line-height:12px;}
@@ -224,7 +224,7 @@ ul.new_list li {float:left; width:142px; display:inline; padding-left:10px; posi
 p.re_name a {line-height:14px; letter-spacing:-1px; }
 p.re_name a:hover {color:#f46000;}
 p.re_name a:active {}
-p.blynks {margin-top:2px; color:#fd450f; font-weight:bold; background:url('/image/soshop/icon_blynks.gif') no-repeat 35px 3px;; padding-left:68px;}
+p.blynks {margin-top:2px; color:#fd450f; font-weight:bold; background:url(/image//soshop/icon_blynks.gif') no-repeat 35px 3px;; padding-left:68px;}
 
 div#best-month {width: 100%; height:220px; margin-left:5px ; position:relative; background: #ddd; border: 1px solid #b7b7b7; margin-top: 20px;}
 div#best-month li {float:left; display:inline;}
@@ -233,7 +233,7 @@ div#best-month li.con {padding:10px;}
 
 div#best-view {padding:5px; float:left;}
 div#best-view dl {float:left; width:250px; padding:0px; display:inline;}
-div#best-view dt {float:left; width:130px; font-size:12px; letter-spacing: 1px;color: #555555;margin-bottom: 10px;background: url('/image/seal_sub_new/grabbit_bg.jpg') no-repeat 10px 0;margin-right: 11px;}
+div#best-view dt {float:left; width:130px; font-size:12px; letter-spacing: 1px;color: #555555;margin-bottom: 10px;background: url(/image//seal_sub_new/grabbit_bg.jpg') no-repeat 10px 0;margin-right: 11px;}
 div#best-view dd {padding-bottom:5px;}
 div#best-view dd.item {color:#000000; line-height:1.5em;}
 div#best-view dd.item a {color:#000000;}
@@ -242,13 +242,13 @@ div#best-view dd.btn {position:absolute; top:168px; left:169px; width:100px;}
 
 div#best-view dt.img img {float:left; padding:10px 19px;}
 div#best-view dd.best-blynks {color:#fd450f; font-weight:bold; margin-left:120px; padding-left:51px; padding-top:3px;
-background:url('/image/soshop/icon_blynks.gif') no-repeat 19px;}
+background:url(/image//soshop/icon_blynks.gif') no-repeat 19px;}
 
 div#best-list { width:365px; margin-top:10px; margin-right:8px; height:98px; float:right;background: #BFBFBF;  border: 1px solid #BBBBBB;  border-color: #E6E6E6 #BBBBBB #BFBFBF #E6E6E6;
     -webkit-box-shadow: inset 1px 1px 2px 0 rgba(0,0,0,0.05),inset -1px -1px 2px 0 rgba(240,240,255,0.3);
     -moz-box-shadow: inset 1px 1px 2px 0 rgba(0,0,0,0.05),inset -1px -1px 2px 0 rgba(240,240,255,0.3);
     box-shadow: inset 1px 1px 2px 0 rgba(0,0,0,0.05),inset -1px -1px 2px 0 rgba(121, 121, 121, 0.3); line-height: 50px;}
-div#best-list ul {background:url('/image/soshop/best_list_bg.gif') repeat-x;}
+div#best-list ul {background:url(/image//soshop/best_list_bg.gif') repeat-x;}
 div#best-list li{display:inline;}
 div#best-list li.img { height:70px; margin:10px 4px; padding:2px; border:1px solid #EEEEEE;}
 
@@ -258,7 +258,7 @@ table.search	{width: 100%;height: 32px;margin-bottom: 20px;}
 table.paging	{margin: 0 auto;}
 
 /*detail view*/
-td.op {height:24px; padding-left:24px; background:#EDEDED url('/image/soshop/view_bullet.gif') no-repeat left; font-weight:bold; letter-spacing:-0.03em;}
+td.op {height:24px; padding-left:24px; background:#EDEDED url(/image//soshop/view_bullet.gif') no-repeat left; font-weight:bold; letter-spacing:-0.03em;}
 td.info {color:#444444; font-weight:bold; border-right:1px solid #c9c9c9;}
 td.current {color:#000000;  font-weight:bold; text-align:right; padding-right:15px; background:#EDEDED;}
 td.used {color:#fd450f;  font-weight:bold; text-align:right; padding-right:15px; background:#EDEDED;}
@@ -291,7 +291,7 @@ div.price_ex	{width:100px; float:left;margin-top:10px;line-height:180%}
 .detail_btn li.btn_right img {display:inline;}
 
 .reco_relative {position:relative; margin:0px auto; width:570px; height:165px; background:#FFFFFF;
-background:url('/image/soshop/detail_recommend_top.gif') no-repeat top; padding-top:45px; padding-bottom:5px; border-bottom:4px solid #d7d7d7;}
+background:url(/image//soshop/detail_recommend_top.gif') no-repeat top; padding-top:45px; padding-bottom:5px; border-bottom:4px solid #d7d7d7;}
 .reco_relative li {display:inline; text-align:center; width:130px;}
 .reco_none {vertical-align:bottom; padding-top:12px; float:left; padding-left:9px;}
 .reco_items { width:120px; padding:5px; float:left; text-align:center;}
@@ -314,7 +314,7 @@ th.op	{height: 24px; width:124px; text-align: center;}
 .cart_info {position:relative; border-top:2px solid #288ED8; border-bottom:2px solid #288ED8; width:100%; margin: 0px;}
 .cart_table {position:relative; margin-left:314px;}
 .cart_table td.bar {border-top:1px solid #D9D9D9; height:1px;}
-.cart_table td.op {height:26px; width:100px; padding-left:19px; background:#f6e196 url('/image/soshop/quick_bullet.gif') no-repeat left;
+.cart_table td.op {height:26px; width:100px; padding-left:19px; background:#f6e196 url(/image//soshop/quick_bullet.gif') no-repeat left;
  color:#974112; font-size:10px; font-weight:bold; letter-spacing:-0.05em;}
 .cart_table td.confirm {width:180px; height:30px; padding-left:12px; color:#002C63; font-weight:bold; text-align: center; }
 .cart_table td.op_current {color:#000000;  font-weight:bold; text-align:right; padding-right:10px;}
@@ -322,7 +322,7 @@ th.op	{height: 24px; width:124px; text-align: center;}
 .cart_table td.op_balance {color:#717171; font-weight:bold; text-align:right; padding-right:10px;}
 .cart_table td.op_detail_wrongtxt {color:#5a738e; font-size:9px; font-weight:normal; line-height:10px; text-align:right; padding:0px 5px 7px 0px;}
 input.confirm {width:100px;}
-.cart_dot {background:url('/image/soshop/cart_info_dot.gif') no-repeat top center;}
+.cart_dot {background:url(/image//soshop/cart_info_dot.gif') no-repeat top center;}
 
 .cart_btn1 {position:relative; top:-43px; left:23px; width:280px; padding:7px;}
 .cart_btn2 { margin:0px auto; text-align:right; padding:7px;}
@@ -343,9 +343,9 @@ div.shop_guid_wrapper p		{margin: 10px 0;}
 
 
 /*royal vip*/
-div.royal_topbox	{margin: 20px 0; background: url('/image/seal_sub_new/royalvip_top_bg.jpg') center no-repeat; width: 100%; height: 189px;}
+div.royal_topbox	{margin: 20px 0; background: url(/image//seal_sub_new/royalvip_top_bg.jpg') center no-repeat; width: 100%; height: 189px;}
 div.royal_topbox p	{padding-top: 24px; color: #fff;text-shadow: -1px -1px #7B7B7B;  font-size: 14px;  padding-right: 16px; line-height: 18px;}
-div.royal_topbox_pt	{margin: 20px 0; background: url('/image/seal_sub_new/royalvip_top_bg.jpg') center no-repeat; width: 100%; height: 189px;}
+div.royal_topbox_pt	{margin: 20px 0; background: url(/image//seal_sub_new/royalvip_top_bg.jpg') center no-repeat; width: 100%; height: 189px;}
 div.royal_topbox_pt p	{padding-top: 24px; color: #fff;text-shadow: -1px -1px #7B7B7B;  font-size: 14px;  padding-right: 16px; line-height: 16px;}
 p .Y_point			{font-weight: bold; color: #CCFF00;}
 .VIPrewards			{width:280px;}
@@ -358,33 +358,33 @@ p .Y_point			{font-weight: bold; color: #CCFF00;}
 .grabbit_tab li	{float:left; margin-right: 10px;}
 div.grabbitGame	{float:left; width:370px; height:402px; margin:20px 0px 10px 0px;}
 *html div.grabbitGame	{width:370px; height:402px; margin:20px 0px 0px 14px;}
-div.Tokens_bg	{width:370px; height:32px; background:url('/image/soshop/grabbit_token_bg.gif') no-repeat top left; padding-left:279px;}
+div.Tokens_bg	{width:370px; height:32px; background:url(/image//soshop/grabbit_token_bg.gif') no-repeat top left; padding-left:279px;}
 *html div.Tokens_bg	{position:relative; top:0px;  padding-left:0px;}
 .tokens			{width:40px; height:20px; color:#f6b941; font-size:14px; font-weight:bold; letter-spacing:-0.05em; text-align:center; line-height:42px;}
 *html .tokens	{width:320px; height:14px; line-height:30px; padding:2px 0px 0px 0px; text-align:right;}
-div.gameExplan	{float:left; width:240px; height:402px; margin-top:20px; background:url('/image/soshop/grabbit_check_bg.gif') no-repeat top left; text-align:center;}
+div.gameExplan	{float:left; width:240px; height:402px; margin-top:20px; background:url(/image//soshop/grabbit_check_bg.gif') no-repeat top left; text-align:center;}
 
 .grabbit_dot_table	{margin-left:18px; text-align:left;}
 *html .grabbit_dot_table	{margin:0px auto; text-align:left;}
 *+html .grabbit_dot_table	{margin:0px auto; text-align:left;}
 div.sub_content .grabbit_dot_table td	{border:1px dashed #deb22c; padding:5px 4px 8px 6px; vertical-align:top;}
 .step_btn			{padding-top:4px;}
-.grabbit_warn1	{padding-top:15px; padding-left:17px; height:110px; text-align:left; background:url('/image/soshop/grabbit_warn_line.gif') no-repeat bottom;}
+.grabbit_warn1	{padding-top:15px; padding-left:17px; height:110px; text-align:left; background:url(/image//soshop/grabbit_warn_line.gif') no-repeat bottom;}
 .grabbit_warn2	{padding-top:5px;}
-.grabbit_prizes	{margin-top:15px; margin-left:12px; width:216px; height:110px; background:url('/image/soshop/prizes_bg.gif') no-repeat; border:1px solid #fdda76;}
+.grabbit_prizes	{margin-top:15px; margin-left:12px; width:216px; height:110px; background:url(/image//soshop/prizes_bg.gif') no-repeat; border:1px solid #fdda76;}
 *html .grabbit_prizes	{margin-left:0px;}
 *+html .grabbit_prizes	{margin-left:0px;}
 .prizes_item	{position:relative; margin-top:28px; margin-left:17px; width:185px; text-align:left;}
 .prizes_item dt	{float:left; width:55px; height:56px;}
 .prizes_item dd	{float:left; width:130px; height:56px; line-height:12px;}
 
-div.grabbit_items	{float:left; width:600px; margin:10px 0px 0px 28px; background:url('/image/soshop/grabbit_prizes_bg.gif') repeat-y center;}
+div.grabbit_items	{float:left; width:600px; margin:10px 0px 0px 28px; background:url(/image//soshop/grabbit_prizes_bg.gif') repeat-y center;}
 *html div.grabbit_items	{margin:10px 0px -2px 14px;}
 *+html div.grabbit_items	{margin-bottom:-2px;}
 table.grabbit_list	{width:590px; margin:0px auto; color:#444; line-height:15px;}
-table.grabbit_list td	{height:58px; background:url('/image/soshop/grabbit_item_underline.gif') no-repeat;}
+table.grabbit_list td	{height:58px; background:url(/image//soshop/grabbit_item_underline.gif') no-repeat;}
 table.grabbit_list td img	{padding:2px 4px 4px 2px;}
-table.grabbit_list td.best_img	{background:url('/image/soshop/grabbit_item_best.gif') no-repeat;}
+table.grabbit_list td.best_img	{background:url(/image//soshop/grabbit_item_best.gif') no-repeat;}
 table.grabbit_list td.best_text	{color:#e25916;}
 img.best_prize {margin-bottom:-6px;}
 
@@ -393,25 +393,25 @@ div.grabbit_list1	{margin:10px auto; border:1px dashed #fff; border-radius:5px; 
 div.grabbit_list2	{margin:10px auto; border:1px dashed #fff; border-radius:5px; padding: 30px 20px;width: 650px; background-color: #ddd;  clear: both;height: 356px; color: #1C3E52;}
 div.grabbit_list3	{margin:10px auto; border:1px dashed #fff; border-radius:5px; padding: 30px 20px;width: 650px; background-color: #ddd;  clear: both;height: 522px; color: #1C3E52;}
 
-dl.prize_level1		{float:left; width:170px; height:192px; margin:0px 5px 0px 5px; background:url('/image/seal_sub_new/prize_level1_bg.png') no-repeat center; text-align:center;}
+dl.prize_level1		{float:left; width:170px; height:192px; margin:0px 5px 0px 5px; background:url(/image//seal_sub_new/prize_level1_bg.png') no-repeat center; text-align:center;}
 .prize_level1 dt	{display:block; width:170px; padding-top:9px;}
 .prize_level1 dd	{width:150px; height:40px; margin:5px 10px 0px 10px; color:#333; font-weight:bold; letter-spacing:-0.03em;}
 
-dl.prize_level2		{margin-right: 8px;float:left; width:124px; padding-bottom:13px;margin-bottom: 10px;color: #fff; text-shadow: -1px -1px #5A695E; background: url('/image/seal_sub_new/grabbit_best.jpg') no-repeat; padding: 10px; text-align: center;}
+dl.prize_level2		{margin-right: 8px;float:left; width:124px; padding-bottom:13px;margin-bottom: 10px;color: #fff; text-shadow: -1px -1px #5A695E; background: url(/image//seal_sub_new/grabbit_best.jpg') no-repeat; padding: 10px; text-align: center;}
 .prize_level2 dt	{display:block; width:124px; padding:9px 0;}
 .prize_level2 dt{border-radius: 10%; border: 1px solid #809A85;}
 .prize_level2 dd	{height:40px; padding:5px; line-height: 14px;}
 
-dl.prize_level3		{float:left; width:130px; margin-bottom: 10px; text-shadow: 1px 1px #fff;  padding: 9px 11px 0 8px; background: url('/image/seal_sub_new/grabbit_bg.jpg') no-repeat 12px 0; margin-right: 10px;}
+dl.prize_level3		{float:left; width:130px; margin-bottom: 10px; text-shadow: 1px 1px #fff;  padding: 9px 11px 0 8px; background: url(/image//seal_sub_new/grabbit_bg.jpg') no-repeat 12px 0; margin-right: 10px;}
 .prize_level3 dt img	{border:1px solid #5D6560; margin: 0 0 0 12px;}
 .prize_level3 dd	{width:130px; height:50px; font-size:14px;     line-height: 16px; margin-top: 14px; text-align: center;}
 
-dl.prize_level4		{float:left; width:130px; margin-bottom: 10px; text-shadow: 1px 1px #fff;  padding: 9px 11px 0 8px; background: url('/image/seal_sub_new/grabbit_bg.jpg') no-repeat 12px 0; margin-right: 10px;}
+dl.prize_level4		{float:left; width:130px; margin-bottom: 10px; text-shadow: 1px 1px #fff;  padding: 9px 11px 0 8px; background: url(/image//seal_sub_new/grabbit_bg.jpg') no-repeat 12px 0; margin-right: 10px;}
 .prize_level4 dt	{}
 .prize_level4 dt img	{border:1px solid #5D6560; margin: 0 0 0 12px;}
 .prize_level4 dd	{width:130px; height:50px; font-size:14px;     line-height: 16px; margin-top: 14px; text-align: center;}
 
-div.explan_area		{background: url('/image/seal_sub_new/royalvip_top_bg.jpg') center no-repeat; margin: 20px 0; background-size: 100%; display: inline-block;  width: 100%; height: 160px;}
+div.explan_area		{background: url(/image//seal_sub_new/royalvip_top_bg.jpg') center no-repeat; margin: 20px 0; background-size: 100%; display: inline-block;  width: 100%; height: 160px;}
 .explan_box			{margin-left: 40px;color: #fff;text-shadow: -1px -1px #505050; margin-top: 32px; font-size: 15px;}
 .rabbit_list3 dl	{color: #ffffff; text-shadow: 1px -1px 0 #637182; background-color: #99A8BB; padding: 10px 10px; border: 1px dashed #ffffff;}
 
@@ -424,10 +424,10 @@ div.explan_area		{background: url('/image/seal_sub_new/royalvip_top_bg.jpg') cen
 .explan_box dd		{display:inline; vertical-align:top; line-height:16px;}
 .explan_box dd img	{padding:3px 0px 2px 0px;}
 
-div.getTokens10		{float:left; width:200px; margin-top:25px; margin-left:20px; background:url('/image/seal_sub_new/tokens_10.png') no-repeat top center;}
-*html div.getTokens10		{float:left; width:200px; margin-top:25px; margin-left:35px; background:url('/image/seal_sub_new/tokens_10.png') no-repeat top center;}
-div.getTokens20		{float:left; width:200px; margin-top:25px; margin-left:20px; background:url('/image/seal_sub_new/tokens_20.png') no-repeat top center;}
-div.getTokens40		{float:left; width:200px; margin-top:25px; margin-left:20px; background:url('/image/seal_sub_new/tokens_40.png') no-repeat top center;}
+div.getTokens10		{float:left; width:200px; margin-top:25px; margin-left:20px; background:url(/image//seal_sub_new/tokens_10.png') no-repeat top center;}
+*html div.getTokens10		{float:left; width:200px; margin-top:25px; margin-left:35px; background:url(/image//seal_sub_new/tokens_10.png') no-repeat top center;}
+div.getTokens20		{float:left; width:200px; margin-top:25px; margin-left:20px; background:url(/image//seal_sub_new/tokens_20.png') no-repeat top center;}
+div.getTokens40		{float:left; width:200px; margin-top:25px; margin-left:20px; background:url(/image//seal_sub_new/tokens_40.png') no-repeat top center;}
 .tokens_price		{display:inline; text-align:center;}
 .tokens_price dt	{width:170px; height:180px; text-align:center;}
 .tokens_price dd	{width:170px; padding-top:8px; padding-bottom:8px; text-align:center; margin:0px auto;}
@@ -435,10 +435,10 @@ div.getTokens40		{float:left; width:200px; margin-top:25px; margin-left:20px; ba
 .tokens_jump		{margin-top:26px; margin-left:9px; font-size:11px; color:#666;}
 
 div.token_sale_title{margin:0px auto; width:590px; text-align:center; margin-top:10px; margin-bottom:-15px;}
-div.getTokens10_event		{float:left; width:170px; margin-top:25px; margin-left:60px; background:url('/image/soshop/tokens_10event.gif') no-repeat top left;}
-*html div.getTokens10_event	{float:left; width:170px; margin-top:25px; margin-left:30px; background:url('/image/soshop/tokens_10event.gif') no-repeat top left;}
-div.getTokens20_event		{float:left; width:170px; margin-top:25px; margin-left:20px; background:url('/image/soshop/tokens_20event.gif') no-repeat top left;}
-div.getTokens40_event		{float:left; width:170px; margin-top:25px; margin-left:20px; background:url('/image/soshop/tokens_40event.gif') no-repeat top left;}
+div.getTokens10_event		{float:left; width:170px; margin-top:25px; margin-left:60px; background:url(/image//soshop/tokens_10event.gif') no-repeat top left;}
+*html div.getTokens10_event	{float:left; width:170px; margin-top:25px; margin-left:30px; background:url(/image//soshop/tokens_10event.gif') no-repeat top left;}
+div.getTokens20_event		{float:left; width:170px; margin-top:25px; margin-left:20px; background:url(/image//soshop/tokens_20event.gif') no-repeat top left;}
+div.getTokens40_event		{float:left; width:170px; margin-top:25px; margin-left:20px; background:url(/image//soshop/tokens_40event.gif') no-repeat top left;}
 .tokens_price_event		{display:inline; text-align:center;}
 .tokens_price_event dt	{width:170px; height:210px; text-align:center;}
 .tokens_price_event dd	{width:170px; padding-top:8px; padding-bottom:8px; text-align:center;}
@@ -480,13 +480,13 @@ div.tokenbuy_info		{float:left; margin:0px auto; width:690px; margin-left:10px; 
 /*------------------------- Portuguese -------------------------*/
 .explan_box_pt		{margin-left: 40px;color: #fff;text-shadow: -1px -1px #505050; font-size: 15px;}
 div.select_op ul.ServerList .ranking_sever_pt	{line-height: 32px; width: 63px; margin-right: 20px;}
-div.Ranking_Term input.search_pt	{width:72px; height:18px; background:url('/image/image_pt/btn_search.gif') no-repeat; border:none; vertical-align:bottom; cursor:pointer;}
-div.CharacterSearch input.search_pt			{width:72px; height:18px; background:url('/image/image_pt/btn_search.gif') no-repeat; border:none; vertical-align:bottom; cursor:pointer;}
+div.Ranking_Term input.search_pt	{width:72px; height:18px; background:url(/image//image_pt/btn_search.gif') no-repeat; border:none; vertical-align:bottom; cursor:pointer;}
+div.CharacterSearch input.search_pt			{width:72px; height:18px; background:url(/image//image_pt/btn_search.gif') no-repeat; border:none; vertical-align:bottom; cursor:pointer;}
 div.Ranking_Term_pt	{width:100%; margin-bottom:3px; height:30px; }
-div.Ranking_Term_pt span.btn1	{float:left; display:inline-block; width:74px; height:18px; background:url('/image/image_pt/btn_overall.gif') no-repeat;}
-div.Ranking_Term_pt span.btn2	{float:left; display:inline-block; width:112px; height:18px; background:url('/image/image_pt/btn_biweekly.gif') no-repeat;}
+div.Ranking_Term_pt span.btn1	{float:left; display:inline-block; width:74px; height:18px; background:url(/image//image_pt/btn_overall.gif') no-repeat;}
+div.Ranking_Term_pt span.btn2	{float:left; display:inline-block; width:112px; height:18px; background:url(/image//image_pt/btn_biweekly.gif') no-repeat;}
 div.Ranking_Term_pt a:hover span, div.Ranking_Term span.on	{background-position:0px -19px;}
 div.Ranking_Term_pt div.select_term	{float:right; width:230px; text-align:right;*margin-top:-20px;}
 div.Ranking_Term_pt div.select_term select	{margin:0px; font-size: 12px;}
 div.Ranking_Term_pt input.txt	{width:200px; margin: 0 10px;}
-div.Ranking_Term_pt input.search	{width:72px; height:18px; background:url('/image/image_pt/btn_search.gif') no-repeat; border:none; vertical-align:bottom; cursor:pointer;}
+div.Ranking_Term_pt input.search	{width:72px; height:18px; background:url(/image//image_pt/btn_search.gif') no-repeat; border:none; vertical-align:bottom; cursor:pointer;}
